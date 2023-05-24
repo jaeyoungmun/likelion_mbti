@@ -63,12 +63,8 @@ function shareURL() {
 }
 
 function shareMessage(){
-    Kakao.Share.sendScrp({
-        requestUrl: "#",
+    Kakao.Share.sendScrap({
+        requestUrl: "https://main--super-biscuit-6fb7b8.netlify.app/",
     });
 }
-
-
-
-
 
